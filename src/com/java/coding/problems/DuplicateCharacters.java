@@ -13,7 +13,7 @@ public class DuplicateCharacters {
 
     public static void count(String text) {
         HashMap<String, Integer> characterMapping = new HashMap<>();
-        for(int i = 0; i < text.length(); i++) {
+        for (int i = 0; i < text.length(); i++) {
             int numOfDuplicate;
             String mappedChar = String.valueOf(text.charAt(i));
             if (characterMapping.isEmpty() || !characterMapping.containsKey(mappedChar)) {
@@ -23,10 +23,10 @@ public class DuplicateCharacters {
                 characterMapping.put(mappedChar, ++numOfDuplicate);
             }
         }
-        Map<String, Integer> collect = characterMapping.entrySet().stream()
+        Map<String, Integer> dupiicatedCharacters = characterMapping.entrySet().stream()
                 .filter(x -> x.getValue() >= 2)
                 .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
-        System.out.println(collect);
+        System.out.println(dupiicatedCharacters);
     }
 
 }

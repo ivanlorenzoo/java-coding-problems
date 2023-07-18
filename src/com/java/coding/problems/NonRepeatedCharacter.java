@@ -1,9 +1,7 @@
 package com.java.coding.problems;
 
-import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
-import java.util.stream.Collectors;
 
 /**
  * This is Solution to Chapter 1 no.2
