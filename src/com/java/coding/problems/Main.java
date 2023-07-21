@@ -6,5 +6,6 @@ public class Main {
         NonRepeatedCharacter.findFirst("ababcddefeg"); //should be c
         ReverseLetterAndWords.reverse("Hello World"); //should be dlroW olleH
         ContainsOnlyDigits.isOnlyDigits("1234x5"); //should be false
+        CountVowelAndConsonant.count("aiueojkl"); //should be 5 vowels and 3 consonants.
     }
 }
