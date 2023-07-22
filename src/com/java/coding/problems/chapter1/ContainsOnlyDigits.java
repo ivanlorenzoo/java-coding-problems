@@ -1,4 +1,4 @@
-package com.java.coding.problems;
+package com.java.coding.problems.chapter1;
 
 /**
  * This is Solution to Chapter 1 no.4

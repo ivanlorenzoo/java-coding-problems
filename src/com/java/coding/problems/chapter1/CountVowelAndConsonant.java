@@ -1,4 +1,4 @@
-package com.java.coding.problems;
+package com.java.coding.problems.chapter1;
 
 import java.util.ArrayList;
 import java.util.List;
