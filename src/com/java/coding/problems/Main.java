@@ -10,5 +10,6 @@ public class Main {
         ContainsOnlyDigits.isOnlyDigits("1234x5"); //should be false
         CountVowelAndConsonant.count("aiueojkl"); //should be 5 vowels and 3 consonants.
         CountingOccurrenceCharacter.count("test123", 'a'); //should be 0 in given string
+        StringConversionToNumber.convert("123.4");//should be 123.4
     }
 }
