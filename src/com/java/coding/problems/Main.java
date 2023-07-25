@@ -1,6 +1,7 @@
 package com.java.coding.problems;
 
 import com.java.coding.problems.chapter1.*;
+import com.java.coding.problems.util.WordsGenerator;
 
 public class Main {
     public static void main(String[] args) {
@@ -12,5 +13,6 @@ public class Main {
         CountingOccurrenceCharacter.count("test123", 'a'); //should be 0 in given string
         StringConversionToNumber.convert("123.4");//should be 123.4
         RemoveWhiteSpace.removeSpace("Hello W o r l d");//should be HelloWorld
+        JoinStringsDelimiter.joinString(WordsGenerator.generateCodingIsFun(), '\\'); //should be Coding\is\fun
     }
 }
