@@ -14,5 +14,6 @@ public class Main {
         StringConversionToNumber.convert("123.4");//should be 123.4
         RemoveWhiteSpace.removeSpace("Hello W o r l d");//should be HelloWorld
         JoinStringsDelimiter.joinString(WordsGenerator.generateCodingIsFun(), '\\'); //should be Coding\is\fun
+        GeneratePermutation.getPermutation("ABC"); //should be ABC ACB BAC BCA CAB CBA
     }
 }
