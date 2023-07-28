@@ -28,5 +28,7 @@ public class Main {
         GeneratePermutation.getPermutation("ABC"); //should be ABC ACB BAC BCA CAB CBA
         // no. 11
         PalindromChecker.checkPalindrome("aba"); //should be true
+        // mp. 12
+        RemoveDuplicateCharacter.remove("abaccdddee"); //should be abcde
     }
 }
