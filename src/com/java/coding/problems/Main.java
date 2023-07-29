@@ -30,5 +30,7 @@ public class Main {
         PalindromChecker.checkPalindrome("aba"); //should be true
         // mp. 12
         RemoveDuplicateCharacter.remove("abaccdddee"); //should be abcde
+        // no. 13
+        RemoveCharacter.remove("akbkc", 'k'); //shuld be abc
     }
 }
