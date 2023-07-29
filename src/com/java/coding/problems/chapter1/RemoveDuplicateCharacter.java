@@ -3,6 +3,11 @@ package com.java.coding.problems.chapter1;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * This is Solution to Chapter 1 no.12
+ * Removing duplicate characters:
+ * Write a program that removes the duplicate characters from the given string
+ */
 public class RemoveDuplicateCharacter {
 
     public static void remove(String text) {
