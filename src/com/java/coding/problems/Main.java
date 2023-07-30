@@ -31,6 +31,8 @@ public class Main {
         // no. 12
         RemoveDuplicateCharacter.remove("abaccdddee"); //should be abcde
         // no. 13
-        RemoveCharacter.remove("akbkc", 'k'); //shuld be abc
+        RemoveCharacter.remove("akbkc", 'k'); //should be abc
+        // no. 14
+        FindMostAppearance.find("ccharacter"); //should be c
     }
 }
