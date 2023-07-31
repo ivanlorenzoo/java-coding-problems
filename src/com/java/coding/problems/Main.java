@@ -34,5 +34,7 @@ public class Main {
         RemoveCharacter.remove("akbkc", 'k'); //should be abc
         // no. 14
         FindMostAppearance.find("ccharacter"); //should be c
+        // no. 15
+        SortingWord.sortByLength(WordsGenerator.generateCodingIsFun()); //should be Coding, fun, is
     }
 }
