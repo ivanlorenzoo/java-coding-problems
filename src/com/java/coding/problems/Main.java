@@ -36,5 +36,7 @@ public class Main {
         FindMostAppearance.find("ccharacter"); //should be c
         // no. 15
         SortingWord.sortByLength(WordsGenerator.generateCodingIsFun()); //should be Coding, fun, is
+        // no. 16
+        SubstringChecker.check("banana", "ana"); //should be true
     }
 }
