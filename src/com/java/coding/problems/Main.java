@@ -38,5 +38,7 @@ public class Main {
         SortingWord.sortByLength(WordsGenerator.generateCodingIsFun()); //should be Coding, fun, is
         // no. 16
         SubstringChecker.check("banana", "ana"); //should be true
+        // no. 17
+        SubstringOccurrence.count("testtesttestabctest", "test"); //should be 4
     }
 }
