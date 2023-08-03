@@ -40,5 +40,7 @@ public class Main {
         SubstringChecker.check("banana", "ana"); //should be true
         // no. 17
         SubstringOccurrence.count("testtesttestabctest", "test"); //should be 4
+        // no. 18
+        AnagramChecker.checkAnagram("bla bla", "bal bal"); //should be true
     }
 }
