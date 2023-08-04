@@ -42,5 +42,7 @@ public class Main {
         SubstringOccurrence.count("testtesttestabctest", "test"); //should be 4
         // no. 18
         AnagramChecker.checkAnagram("bla bla", "bal bal"); //should be true
+        // no. 19
+        DeclareMultilineString.printStringBlock(); //just prints out string with formating
     }
 }
