@@ -44,5 +44,7 @@ public class Main {
         AnagramChecker.checkAnagram("bla bla", "bal bal"); //should be true
         // no. 19
         DeclareMultilineString.printStringBlock(); //just prints out string with formating
+        // no. 20
+        StringConcatenation.joinString("Hi", 3); //should be HiHiHi
     }
 }
