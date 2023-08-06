@@ -43,8 +43,10 @@ public class Main {
         // no. 18
         AnagramChecker.checkAnagram("bla bla", "bal bal"); //should be true
         // no. 19
-        DeclareMultilineString.printStringBlock(); //just prints out string with formating
+        DeclareMultilineString.printStringBlock(); //just prints out string with formatting
         // no. 20
         StringConcatenation.joinString("Hi", 3); //should be HiHiHi
+        // no. 21
+        RemoveSpaces.removeLeadingTrailingSpace(" Hello, World !"); //should be Hello,World!
     }
 }
