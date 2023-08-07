@@ -12,4 +12,12 @@ public class WordsGenerator {
         randomWords.add("fun");
         return randomWords;
     }
+
+    public static List<String> generateStringsWithCommonPrefix() {
+        List<String> prefixWords = new ArrayList<>();
+        prefixWords.add("Trail");
+        prefixWords.add("Train");
+        prefixWords.add("Trade");
+        return prefixWords;
+    }
 }

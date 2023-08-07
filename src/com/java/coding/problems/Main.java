@@ -48,5 +48,7 @@ public class Main {
         StringConcatenation.joinString("Hi", 3); //should be HiHiHi
         // no. 21
         RemoveSpaces.removeLeadingTrailingSpace(" Hello, World !"); //should be Hello,World!
+        // no. 22
+        LongestCommonPrefix.find(WordsGenerator.generateStringsWithCommonPrefix()); //should be Tra
     }
 }
