@@ -50,5 +50,7 @@ public class Main {
         RemoveSpaces.removeLeadingTrailingSpace(" Hello, World !"); //should be Hello,World!
         // no. 22
         LongestCommonPrefix.find(WordsGenerator.generateStringsWithCommonPrefix()); //should be Tra
+        // no. 23
+        Indentation.apply("Hi, Earth"); // should be "    Hi, Earth"
     }
 }
