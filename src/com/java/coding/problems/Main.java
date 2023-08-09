@@ -52,5 +52,7 @@ public class Main {
         LongestCommonPrefix.find(WordsGenerator.generateStringsWithCommonPrefix()); //should be Tra
         // no. 23
         Indentation.apply("Hi, Earth"); // should be "    Hi, Earth"
+        // no. 24
+        TransformingString.transform("Hello", "World");// should change Hello to Upper case and change O to World
     }
 }
