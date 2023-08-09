@@ -53,6 +53,6 @@ public class Main {
         // no. 23
         Indentation.apply("Hi, Earth"); // should be "    Hi, Earth"
         // no. 24
-        TransformingString.transform("Hello", "World");
+        TransformingString.transform("Hello", "World");// should change Hello to Upper case and change O to World
     }
 }

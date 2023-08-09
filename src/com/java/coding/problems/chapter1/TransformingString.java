@@ -12,10 +12,10 @@ public class TransformingString {
     public static void transform(String from, String to) {
         // The result is looked through the solution
         // The piece of code itself just to show a way to manipulate string
-        // in such a way to customize way of changing some string to other preffered formats
+        // in such a way to customize way of changing some string to other preferred formats
         String resultMap = Stream.of(from)
                 .map(String::toUpperCase)
-                .map(s -> s.replaceAll(from, to))
+                .map(s -> s.replace("O", to))
                 .findFirst()
                 .get();
         System.out.println(resultMap);
