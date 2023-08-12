@@ -1,7 +1,5 @@
 package com.java.coding.problems.chapter1;
 
-import java.math.BigDecimal;
-
 /**
  * This is Solution to Chapter 1 no.26
  * Summing two large int/long numbers and operation overflow:
