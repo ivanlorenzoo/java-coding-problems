@@ -58,5 +58,7 @@ public class Main {
         MaxMin.computeMaxMin(-1,-2); //should be -2 as max and -1 as max
         // no. 26
         SumLargeNumber.sum(); //should throw error
+        // no. 27
+        ParseStringToUnsignedNumber.parse("123456"); // should be 123456
     }
 }
