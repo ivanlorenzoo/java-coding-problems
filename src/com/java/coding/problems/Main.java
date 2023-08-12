@@ -57,6 +57,6 @@ public class Main {
         // no. 25
         MaxMin.computeMaxMin(-1,-2); //should be -2 as max and -1 as max
         // no. 26
-        SumLargeNumber.sum();
+        SumLargeNumber.sum(); //should throw error
     }
 }
