@@ -60,5 +60,7 @@ public class Main {
         SumLargeNumber.sum(); //should throw error
         // no. 27
         ParseStringToUnsignedNumber.parse("123456"); // should be 123456
+        // no. 28
+        IntToLong.unsignedConversion(56789); // should be 56789
     }
 }
