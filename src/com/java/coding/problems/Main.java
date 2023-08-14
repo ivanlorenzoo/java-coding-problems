@@ -62,5 +62,7 @@ public class Main {
         ParseStringToUnsignedNumber.parse("123456"); // should be 123456
         // no. 28
         IntToLong.unsignedConversion(56789); // should be 56789
+        // no. 29
+        CompareUnsignedNumber.compare(1,2); // 2 is greater than 1
     }
 }
