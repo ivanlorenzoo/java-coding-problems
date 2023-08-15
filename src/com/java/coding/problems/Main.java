@@ -64,5 +64,8 @@ public class Main {
         IntToLong.unsignedConversion(56789); // should be 56789
         // no. 29
         CompareUnsignedNumber.compare(1,2); // 2 is greater than 1
+        // no. 30
+        DivisionAndModuloUnsignedNum.division(4,2); // 2
+        DivisionAndModuloUnsignedNum.modulo(5,3); // 2
     }
 }
