@@ -67,5 +67,7 @@ public class Main {
         // no. 30
         DivisionAndModuloUnsignedNum.division(4,2); // 2
         DivisionAndModuloUnsignedNum.modulo(5,3); // 2
+        // no. 31
+        FiniteFloatingNumber.isFiniteNumber(2.15); // true
     }
 }
