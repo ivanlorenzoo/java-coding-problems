@@ -69,5 +69,9 @@ public class Main {
         DivisionAndModuloUnsignedNum.modulo(5,3); // 2
         // no. 31
         FiniteFloatingNumber.isFiniteNumber(2.15); // true
+        // no. 32
+        LogicOperation.AndOperation(true, true); // true
+        LogicOperation.OrOperation(true, false); // true
+        LogicOperation.XorOperation(false, false); // false
     }
 }
