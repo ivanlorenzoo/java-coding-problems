@@ -72,6 +72,6 @@ public class Main {
         // no. 32
         LogicOperation.AndOperation(true, true); // true
         LogicOperation.OrOperation(true, false); // true
-        LogicOperation.AndOperation(false, false); // false
+        LogicOperation.XorOperation(false, false); // false
     }
 }
