@@ -3,6 +3,8 @@ package com.java.coding.problems;
 import com.java.coding.problems.chapter1.*;
 import com.java.coding.problems.util.WordsGenerator;
 
+import java.math.BigInteger;
+
 public class Main {
     public static void main(String[] args) {
         /* Chapter 1 */
@@ -73,5 +75,7 @@ public class Main {
         LogicOperation.AndOperation(true, true); // true
         LogicOperation.OrOperation(true, false); // true
         LogicOperation.XorOperation(false, false); // false
+        // no. 33
+        BigIntegerConverter.convert(BigInteger.valueOf(100)); // int = 100
     }
 }
