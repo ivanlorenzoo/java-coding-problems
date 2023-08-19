@@ -77,5 +77,7 @@ public class Main {
         LogicOperation.XorOperation(false, false); // false
         // no. 33
         BigIntegerConverter.convert(BigInteger.valueOf(100)); // int = 100
+        // no. 34
+        ConvertLongToInt.convert(10000); // int = 10000
     }
 }
