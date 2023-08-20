@@ -59,7 +59,7 @@ public class Main {
         // no. 25
         MaxMin.computeMaxMin(-1,-2); //should be -2 as max and -1 as max
         // no. 26
-        SumLargeNumber.sum(); //should throw error
+//        SumLargeNumber.sum(); //should throw error
         // no. 27
         ParseStringToUnsignedNumber.parse("123456"); // should be 123456
         // no. 28
@@ -79,5 +79,8 @@ public class Main {
         BigIntegerConverter.convert(BigInteger.valueOf(100)); // int = 100
         // no. 34
         ConvertLongToInt.convert(10000); // int = 10000
+        // no. 35
+        FloorDivisionModulus.floorDivision(10,3); // 3
+        FloorDivisionModulus.floorMod(10,3); // 1
     }
 }
