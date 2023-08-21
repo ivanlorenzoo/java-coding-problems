@@ -59,7 +59,7 @@ public class Main {
         // no. 25
         MaxMin.computeMaxMin(-1,-2); //should be -2 as max and -1 as max
         // no. 26
-//        SumLargeNumber.sum(); //should throw error
+        // SumLargeNumber.sum(); //should throw error --uncomment this line to run
         // no. 27
         ParseStringToUnsignedNumber.parse("123456"); // should be 123456
         // no. 28
@@ -82,5 +82,7 @@ public class Main {
         // no. 35
         FloorDivisionModulus.floorDivision(10,3); // 3
         FloorDivisionModulus.floorMod(10,3); // 1
+        // no. 36
+        NextFloatingPoint.nextAdjacentValue(-1.1, -1.0); // should be -1.0999..
     }
 }
