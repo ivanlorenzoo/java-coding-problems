@@ -2,9 +2,9 @@ package com.java.coding.problems.chapter1;
 
 /**
  * This is Solution to Chapter 1 no.37
- * Next floating-point value:
- * Write a program that returns the next floating-point adjacent to
- * the given float/double value in the direction of positive and negative infinity.
+ * Multiplying two large int/long values and operation overflow:
+ * Write a program that multiplies two large int/long values
+ * and throws an arithmetic exception in the case of operation overflow.
  */
 public class MultiplyLargeNumber {
 
