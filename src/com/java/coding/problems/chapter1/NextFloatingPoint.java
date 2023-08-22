@@ -1,7 +1,7 @@
 package com.java.coding.problems.chapter1;
 
 /**
- * This is Solution to Chapter 1 no.35
+ * This is Solution to Chapter 1 no.36
  * Next floating-point value:
  * Write a program that returns the next floating-point adjacent to
  * the given float/double value in the direction of positive and negative infinity.
