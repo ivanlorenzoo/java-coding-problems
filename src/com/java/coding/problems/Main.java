@@ -86,5 +86,7 @@ public class Main {
         NextFloatingPoint.nextAdjacentValue(-1.1, -1.0); // should be -1.0999..
         // no. 37
         // MultiplyLargeNumber.multiply(9000000, 9000000); // should throw integer overflow --uncomment this line to run
+        // no. 38
+        FusedMultiplyAdd.calculateFma(10.999, 5.999, 3.999); // new implementation use Math.fma in Java 9
     }
 }
