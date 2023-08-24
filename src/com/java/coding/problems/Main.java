@@ -4,9 +4,10 @@ import com.java.coding.problems.chapter1.*;
 import com.java.coding.problems.util.WordsGenerator;
 
 import java.math.BigInteger;
+import java.text.ParseException;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ParseException {
         /* Chapter 1 */
         // no. 1
         DuplicateCharacters.count("aaiueuoa"); //should be {a=3, u=2}
@@ -88,5 +89,7 @@ public class Main {
         // MultiplyLargeNumber.multiply(9000000, 9000000); // should throw integer overflow --uncomment this line to run
         // no. 38
         FusedMultiplyAdd.calculateFma(10.999, 5.999, 3.999); // new implementation use Math.fma in Java 9
+        // no. 39
+        CompactNumberFormatting.convert("1000000");
     }
 }
