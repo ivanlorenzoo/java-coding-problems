@@ -7,9 +7,10 @@ import com.java.coding.problems.util.WordsGenerator;
 
 import java.math.BigInteger;
 import java.text.ParseException;
+import java.util.InvalidPropertiesFormatException;
 
 public class Main {
-    public static void main(String[] args) throws ParseException {
+    public static void main(String[] args) throws ParseException, InvalidPropertiesFormatException {
         /* Chapter 1 */
         // no. 1
         DuplicateCharacters.count("aaiueuoa"); //should be {a=3, u=2}
@@ -99,5 +100,7 @@ public class Main {
         CheckNull.checkWithFunctionalStyle(NumberGenerator.generateNumbers()); // should be false
         // no. 41
         // CheckNull.checkNullThrowNullPointer(null); // throw exception with custom msg --uncomment this line to run
+        // no. 42
+        // CheckNull.checkNullThrowCustomException(null); // throw custom exception --uncomment this line to run
     }
 }

@@ -1,5 +1,6 @@
 package com.java.coding.problems.chapter2;
 
+import java.util.InvalidPropertiesFormatException;
 import java.util.List;
 import java.util.Objects;
 
@@ -29,4 +30,14 @@ public class CheckNull {
         }
     }
 
+    /**
+     * Chapter 2 no.42
+     * Checking null references and throwing the specified exception (example, IllegalArgumentException):
+     * Write a program that performs the null checks on the given references and throws the specified exception.
+     */
+    public static void checkNullThrowCustomException(List<Integer> numbers) throws InvalidPropertiesFormatException {
+        if (numbers == null) {
+            throw new InvalidPropertiesFormatException("Null Integer list cannot be accepted as argument");
+        }
+    }
 }
