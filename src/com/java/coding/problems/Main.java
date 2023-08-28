@@ -1,6 +1,8 @@
 package com.java.coding.problems;
 
 import com.java.coding.problems.chapter1.*;
+import com.java.coding.problems.chapter2.CheckNull;
+import com.java.coding.problems.util.NumberGenerator;
 import com.java.coding.problems.util.WordsGenerator;
 
 import java.math.BigInteger;
@@ -91,5 +93,9 @@ public class Main {
         FusedMultiplyAdd.calculateFma(10.999, 5.999, 3.999); // new implementation use Math.fma in Java 9
         // no. 39
         CompactNumberFormatting.convert("1000000");
+
+        /* Chapter 2 */
+        // no. 40
+        CheckNull.checkWithFunctionalStyle(NumberGenerator.generateNumbers()); // should be false
     }
 }
