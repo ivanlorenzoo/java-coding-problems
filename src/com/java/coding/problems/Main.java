@@ -97,5 +97,7 @@ public class Main {
         /* Chapter 2 */
         // no. 40
         CheckNull.checkWithFunctionalStyle(NumberGenerator.generateNumbers()); // should be false
+        // no. 41
+        // CheckNull.checkNullThrowNullPointer(null); // throw exception with custom msg --uncomment this line to run
     }
 }
