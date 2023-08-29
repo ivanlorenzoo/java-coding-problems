@@ -102,5 +102,7 @@ public class Main {
         // CheckNull.checkNullThrowNullPointer(null); // throw exception with custom msg --uncomment this line to run
         // no. 42
         // CheckNull.checkNullThrowCustomException(null); // throw custom exception --uncomment this line to run
+        // no. 43
+        CheckNull.checkNullDefault(null); // should be empty list
     }
 }
