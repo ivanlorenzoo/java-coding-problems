@@ -1,5 +1,6 @@
 package com.java.coding.problems.chapter2;
 
+import java.util.ArrayList;
 import java.util.InvalidPropertiesFormatException;
 import java.util.List;
 import java.util.Objects;
@@ -39,5 +40,15 @@ public class CheckNull {
         if (numbers == null) {
             throw new InvalidPropertiesFormatException("Null Integer list cannot be accepted as argument");
         }
+    }
+
+    /**
+     * Chapter 2 no.43
+     * Checking null references and returning non-null default references:
+     * Write a program that performs the null checks on the given reference,
+     * and if it is non-null, then return it; otherwise, return a non-null default reference.
+     */
+    public static void checkNullDefault(List<Integer> numbers) {
+        System.out.println(Objects.requireNonNullElseGet(numbers, ArrayList::new));
     }
 }
