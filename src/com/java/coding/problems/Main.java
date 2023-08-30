@@ -1,6 +1,7 @@
 package com.java.coding.problems;
 
 import com.java.coding.problems.chapter1.*;
+import com.java.coding.problems.chapter2.CheckIndex;
 import com.java.coding.problems.chapter2.CheckNull;
 import com.java.coding.problems.util.NumberGenerator;
 import com.java.coding.problems.util.WordsGenerator;
@@ -104,5 +105,7 @@ public class Main {
         // CheckNull.checkNullThrowCustomException(null); // throw custom exception --uncomment this line to run
         // no. 43
         CheckNull.checkNullDefault(null); // should be empty list
+        // no. 44
+        // CheckIndex.checkIndexOutOfBounds(4, NumberGenerator.generateNumbers()); // should throw index outOfBound
     }
 }
