@@ -106,6 +106,6 @@ public class Main {
         // no. 43
         CheckNull.checkNullDefault(null); // should be empty list
         // no. 44
-        // CheckIndex.checkIndexOutOfBounds(4, NumberGenerator.generateNumbers()); // should throw index outOfBound
+        CheckIndex.checkIndexOutOfBounds(4); // should print check completed
     }
 }
