@@ -107,5 +107,7 @@ public class Main {
         CheckNull.checkNullDefault(null); // should be empty list
         // no. 44
         CheckIndex.checkIndexOutOfBounds(4); // should print check completed
+        // no. 45
+        CheckIndex.checkSubRangeOutOfBounds(7,8); // should print check completed
     }
 }
