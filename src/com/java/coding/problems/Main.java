@@ -3,15 +3,16 @@ package com.java.coding.problems;
 import com.java.coding.problems.chapter1.*;
 import com.java.coding.problems.chapter2.CheckIndex;
 import com.java.coding.problems.chapter2.CheckNull;
+import com.java.coding.problems.chapter2.ObjectEqualsAndHashCode;
+import com.java.coding.problems.helper.DummyHelper;
 import com.java.coding.problems.util.NumberGenerator;
 import com.java.coding.problems.util.WordsGenerator;
 
 import java.math.BigInteger;
 import java.text.ParseException;
-import java.util.InvalidPropertiesFormatException;
 
 public class Main {
-    public static void main(String[] args) throws ParseException, InvalidPropertiesFormatException {
+    public static void main(String[] args) throws ParseException {
         /* Chapter 1 */
         // no. 1
         DuplicateCharacters.count("aaiueuoa"); //should be {a=3, u=2}
@@ -109,5 +110,8 @@ public class Main {
         CheckIndex.checkIndexOutOfBounds(4); // should print check completed
         // no. 45
         CheckIndex.checkSubRangeOutOfBounds(7,8); // should print check completed
+        // no. 46
+        DummyHelper dummyHelper = new DummyHelper(1, "one");
+        ObjectEqualsAndHashCode.checkObject(dummyHelper);
     }
 }
